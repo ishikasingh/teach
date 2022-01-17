@@ -1,0 +1,9 @@
+export HOST_DATA_DIR=/data/anthony/teach
+export HOST_IMAGES_DIR=output/images
+export HOST_OUTPUT_DIR=output
+export API_PORT=5000
+export SUBMISSION_PK=168888
+export INFERENCE_GPUS='"device=0"'
+export API_GPUS='"device=1"'
+export SPLIT=valid_seen
+export DOCKER_NETWORK=no-internet

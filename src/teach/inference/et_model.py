@@ -138,7 +138,7 @@ class ETModel(TeachModel):
 
         m_pred = model_util.extract_action_preds(
             m_out, self.model.pad, self.vocab["action_low"], clean_special_tokens=False
-        )[0]
+        )[0]    
         action = m_pred["action"]
 
         obj = None
